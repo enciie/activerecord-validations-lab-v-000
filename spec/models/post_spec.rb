@@ -6,7 +6,7 @@ RSpec.describe Post, type: :model do
   let(:valid_attrs) do
     {
       title: "You Won't Believe These True Facts",
-      content: content,
+      content: "content",
       summary: "Abstract.",
       category: "Fiction"
     }
